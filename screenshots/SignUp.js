@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react'
+import import React, {useState, useEffect} from 'react'
 import {View} from 'react-native'
 import { AppLoading } from 'expo';
 import * as Font from 'expo-font';
 import {Container, Text, Item, Input} from 'native-base'
 
-export default function App(){
+export default function SignUp(){
   const [isReady, setIsReady] = useState(false)
 
   useEffect(() => {
